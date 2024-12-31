@@ -1,0 +1,194 @@
+<app-page-breadcrumbs title="Carousel"></app-page-breadcrumbs>
+
+
+<div class="row mb-2">
+    <div class="col-sm-4">
+        <app-card-design title="Basic Carousel" [htmlCode]="htmlCode1" [cssCode]="cssCode1" [tsCode]="tsCode1">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner" style="height: 200px;">
+                    <div class="carousel-item active" style="height: 300px;">
+                        <img src="cake1.jpg" class="d-block w-100" alt="cake1.jpg">
+                    </div>
+                    <div class="carousel-item" style="height: 300px;">
+                        <img src="cake2.jpg" class="d-block w-100" alt="cake2.jpg">
+                    </div>
+                    <div class="carousel-item" style="height: 300px;">
+                        <img src="cake3.jpg" class="d-block w-100" alt="cake3.jpg">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </app-card-design>
+    </div>
+    <div class="col-sm-4">
+        <app-card-design title="Carousel with indicators" [htmlCode]="htmlCode2" [cssCode]="cssCode2"
+            [tsCode]="tsCode2">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" style="height: 200px;">
+                    <div class="carousel-item active" style="height: 300px;">
+                        <img src="cake1.jpg" class="d-block w-100" alt="cake1.jpg">
+                    </div>
+                    <div class="carousel-item" style="height: 300px;">
+                        <img src="cake2.jpg" class="d-block w-100" alt="cake2.jpg">
+                    </div>
+                    <div class="carousel-item" style="height: 300px;">
+                        <img src="cake3.jpg" class="d-block w-100" alt="cake3.jpg">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </app-card-design>
+    </div>
+    <div class="col-sm-4">
+        <app-card-design title="Carousel with caption" [htmlCode]="htmlCode3" [cssCode]="cssCode3" [tsCode]="tsCode3">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" style="height: 200px;">
+                    <div class="carousel-item active" style="height: 300px;">
+                        <img src="choco-pastry1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Chocolate Pastry</h5>
+                            <p>In every rich, velvety bite, I find the sweetness of our love, a delightful
+                                indulgence that warms my heart.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="height: 300px;">
+                        <img src="straberry-pastry1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Straberry Pastry</h5>
+                            <p>In every bite of this strawberry pastry, I taste the sweetness of our love, delicate
+                                and delightful.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="height: 300px;">
+                        <img src="pineapple-pastry1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Pineapple Pastry</h5>
+                            <p>In every bite of pineapple pastry, I taste a slice of paradise, sweet and delightful.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </app-card-design>
+    </div>
+</div>
+
+
+<div class="row mb-2">
+    <div class="col-sm-4">
+        <app-card-design title="Carousel with Crossfade" [htmlCode]="htmlCode4" [cssCode]="cssCode4" [tsCode]="tsCode4">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner" style="height: 200px;">
+                    <div class="carousel-item active" style="height: 300px;">
+                        <img src="cake1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" style="height: 300px;">
+                        <img src="cake2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" style="height: 300px;">
+                        <img src="cake3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </app-card-design>
+    </div>
+    <div class="col-sm-4">
+        <app-card-design title="Autoplaying carousels" [htmlCode]="htmlCode5" [cssCode]="cssCode5" [tsCode]="tsCode5">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" style="height: 200px;">
+                    <div class="carousel-item active" style="height: 300px;">
+                        <img src="cake1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" style="height: 300px;">
+                        <img src="cake2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" style="height: 300px;">
+                        <img src="cake3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </app-card-design>
+    </div>
+    <div class="col-sm-4">
+        <app-card-design title="Autoplaying carousels without controls" [htmlCode]="htmlCode6" [cssCode]="cssCode6"
+            [tsCode]="tsCode6">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" style="height: 200px;">
+                    <div class="carousel-item active" style="height: 300px;">
+                        <img src="cake1.jpg" class="d-block w-100" alt="cake1.jpg">
+                    </div>
+                    <div class="carousel-item" style="height: 300px;">
+                        <img src="cake2.jpg" class="d-block w-100" alt="cake2.jpg">
+                    </div>
+                    <div class="carousel-item" style="height: 300px;">
+                        <img src="cake3.jpg" class="d-block w-100" alt="cake3.jpg">
+                    </div>
+                </div>
+            </div>
+        </app-card-design>
+    </div>
+</div>

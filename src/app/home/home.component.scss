@@ -1,0 +1,41 @@
+.overflow-container {
+    white-space: nowrap;
+    overflow-x: auto;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.icon-style {
+    width: 70px;
+    border-radius: 15px;
+}
+
+.gallery-row {
+    display: flex;
+    overflow-x: scroll;
+    /* Allows horizontal scrolling */
+    padding: 10px;
+    gap: 10px;
+    /* Adds space between the cards */
+}
+
+.gallery-row .card {
+    flex: 0 0 auto;
+    /* Prevents cards from shrinking */
+    width: 300px;
+    /* Sets a fixed width for each card */
+}
+
+/* Optional: Hide scrollbar for a cleaner look */
+.gallery-row::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-row {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}

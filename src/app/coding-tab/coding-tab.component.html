@@ -1,0 +1,8 @@
+<ul class="nav nav-underline m-2" style="cursor: pointer;">
+    <li class="nav-item " *ngFor="let tab of tabs">
+        <a class="nav-link" [class.active]="activeTab === tab" (click)="setActiveTab(tab)">{{ tab }}</a>
+    </li>
+</ul>
+<div class="tab-content mt-3">
+    <ng-content></ng-content>
+</div>

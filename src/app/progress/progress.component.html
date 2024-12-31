@@ -1,0 +1,157 @@
+<app-page-breadcrumbs title="Progress"></app-page-breadcrumbs>
+
+
+<div class="row mb-2">
+  <div class="col-sm-4">
+    <app-card-design title="Default" [htmlCode]="htmlCode1" [cssCode]="cssCode1" [tsCode]="tsCode1">
+      <div class="progress mb-1" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar" style="width: 0%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar" style="width: 25%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar" style="width: 50%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar" style="width: 75%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar" style="width: 100%"></div>
+      </div>
+    </app-card-design>
+  </div>
+
+  <div class="col-sm-4">
+    <app-card-design title="With height" [htmlCode]="htmlCode2" [cssCode]="cssCode2" [tsCode]="tsCode2">
+      <div class="progress mb-1" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100" style="height: 1px">
+        <div class="progress-bar" style="width: 25%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Example 5px high" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100" style="height: 5px">
+        <div class="progress-bar" style="width: 25%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100" style="height: 10px">
+        <div class="progress-bar" style="width: 25%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Example 15px high" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100" style="height: 15px">
+        <div class="progress-bar" style="width: 25%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100" style="height: 20px">
+        <div class="progress-bar" style="width: 25%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Example 25px high" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100" style="height: 25px">
+        <div class="progress-bar" style="width: 25%"></div>
+      </div>
+    </app-card-design>
+  </div>
+
+  <div class="col-sm-4">
+    <app-card-design title="With labels" [htmlCode]="htmlCode3" [cssCode]="cssCode3" [tsCode]="tsCode3">
+      <div class="progress mb-1" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar" style="width: 25%">25%</div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar" style="width: 50%">50%</div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Example with label" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar" style="width: 75%">75%</div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Example with label" aria-valuenow="100"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 100%">100%</div>
+      </div>
+    </app-card-design>
+  </div>
+</div>
+
+<div class="row mb-2">
+  <div class="col-sm-4">
+    <app-card-design title="With background and labels" [htmlCode]="htmlCode4" [cssCode]="cssCode4" [tsCode]="tsCode4">
+      <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="10" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar bg-primary" style="width: 10%">10%</div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 25%">25%</div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar bg-info" style="width: 50%">50%</div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 75%">75%</div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+      </div>
+    </app-card-design>
+  </div>
+
+  <div class="col-sm-4">
+    <app-card-design title="Stripped background" [htmlCode]="htmlCode5" [cssCode]="cssCode5" [tsCode]="tsCode5">
+      <div class="progress mb-1" role="progressbar" aria-label="Default striped example" aria-valuenow="10"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped" style="width: 10%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Success striped example" aria-valuenow="25"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-success" style="width: 25%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Info striped example" aria-valuenow="50"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-info" style="width: 50%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Warning striped example" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-warning" style="width: 75%"></div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Danger striped example" aria-valuenow="100"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-danger" style="width: 100%"></div>
+      </div>
+    </app-card-design>
+  </div>
+
+  <div class="col-sm-4">
+    <app-card-design title="Stripped animated background with labels" [htmlCode]="htmlCode6" [cssCode]="cssCode6"
+      [tsCode]="tsCode6">
+      <div class="progress mb-1" role="progressbar" aria-label="Animated striped example" aria-valuenow="10"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-pr" style="width: 10%">10%</div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Animated striped example" aria-valuenow="25"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 25%">25%</div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Animated striped example" aria-valuenow="50"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 50%">50%</div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 75%">75%</div>
+      </div>
+      <div class="progress mb-1" role="progressbar" aria-label="Animated striped example" aria-valuenow="100"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 100%">100%</div>
+      </div>
+    </app-card-design>
+  </div>
+</div>

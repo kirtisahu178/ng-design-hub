@@ -1,0 +1,22 @@
+/* Custom gradient background for accordion headers */
+.accordion-header .accordion-button {
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    color: white;
+}
+
+/* Maintain gradient when accordion is collapsed */
+.accordion-header .accordion-button.collapsed {
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    color: white;
+}
+
+/* Optional: Add hover effect if you want */
+.accordion-header .accordion-button:hover {
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}

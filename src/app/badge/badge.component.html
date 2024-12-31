@@ -1,0 +1,91 @@
+<app-page-breadcrumbs title="Badge"></app-page-breadcrumbs>
+
+
+<div class="row mb-2">
+    <div class="col-sm-6">
+        <app-card-design title="Heading badges" [htmlCode]="htmlCode1" [cssCode]="cssCode1" [tsCode]="tsCode1">
+            <h1>Example h1 heading <span class="badge text-bg-primary">New</span></h1>
+            <h2>Example h2 heading <span class="badge text-bg-secondary">New</span></h2>
+            <h3>Example h3 heading <span class="badge text-bg-success">New</span></h3>
+            <h4>Example h4 heading <span class="badge text-bg-danger">New</span></h4>
+            <h5>Example h5 heading <span class="badge text-bg-warning">New</span></h5>
+            <h6>Example h6 heading <span class="badge text-bg-info">New</span></h6>
+        </app-card-design>
+    </div>
+    <div class="col-sm-6">
+        <app-card-design title="Button badges" [htmlCode]="htmlCode2" [cssCode]="cssCode2" [tsCode]="tsCode2">
+            <button type="button" class="btn btn-primary m-1">
+                Notifications <span class="badge bg-white text-primary">4</span>
+            </button>
+            <button type="button" class="btn btn-secondary m-1">
+                Notifications <span class="badge bg-white text-secondary">4</span>
+            </button>
+            <button type="button" class="btn btn-success m-1">
+                Notifications <span class="badge bg-white text-success">4</span>
+            </button>
+            <button type="button" class="btn btn-danger m-1">
+                Notifications <span class="badge bg-white text-danger">4</span>
+            </button>
+            <button type="button" class="btn btn-warning m-1">
+                Notifications <span class="badge bg-white text-warning">4</span>
+            </button>
+            <button type="button" class="btn btn-info m-1">
+                Notifications <span class="badge bg-white text-info">4</span>
+            </button>
+        </app-card-design>
+        <div class="row mt-2">
+            <div class="col-sm-6">
+                <app-card-design title="Positioned badges" [htmlCode]="htmlCode3" [cssCode]="cssCode3"
+                    [tsCode]="tsCode3">
+                    <button type="button" class="btn btn-primary position-relative">
+                        Inbox
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            99+
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </button>
+                </app-card-design>
+            </div>
+            <div class="col-sm-6">
+                <app-card-design title="Positioned dot badges" [htmlCode]="htmlCode4" [cssCode]="cssCode4"
+                    [tsCode]="tsCode4">
+                    <button type="button" class="btn btn-primary position-relative">
+                        Profile
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                            <span class="visually-hidden">New alerts</span>
+                        </span>
+                    </button>
+                </app-card-design>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <app-card-design title="Badges with background color" [htmlCode]="htmlCode5" [cssCode]="cssCode5"
+            [tsCode]="tsCode5">
+            <span class="badge text-bg-primary m-1">Primary</span>
+            <span class="badge text-bg-secondary m-1">Secondary</span>
+            <span class="badge text-bg-success m-1">Success</span>
+            <span class="badge text-bg-danger m-1">Danger</span>
+            <span class="badge text-bg-warning m-1">Warning</span>
+            <span class="badge text-bg-info m-1">Info</span>
+            <span class="badge text-bg-light m-1">Light</span>
+            <span class="badge text-bg-dark m-1">Dark</span>
+        </app-card-design>
+    </div>
+    <div class="col-sm-6">
+        <app-card-design title="Pill badges" [htmlCode]="htmlCode6" [cssCode]="cssCode6" [tsCode]="tsCode6">
+            <span class="badge rounded-pill text-bg-primary m-1">Primary</span>
+            <span class="badge rounded-pill text-bg-secondary m-1">Secondary</span>
+            <span class="badge rounded-pill text-bg-success m-1">Success</span>
+            <span class="badge rounded-pill text-bg-danger m-1">Danger</span>
+            <span class="badge rounded-pill text-bg-warning m-1">Warning</span>
+            <span class="badge rounded-pill text-bg-info m-1">Info</span>
+            <span class="badge rounded-pill text-bg-light m-1">Light</span>
+            <span class="badge rounded-pill text-bg-dark m-1">Dark</span>
+        </app-card-design>
+    </div>
+</div>
